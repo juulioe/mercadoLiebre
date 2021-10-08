@@ -1,0 +1,31 @@
+
+form {
+    display: block;
+    text-align: left;
+    width: 80%;
+}
+input{
+    width: 80%;
+    text-align: center;
+    margin: 10px;
+}
+#perfil{
+    width: auto;
+}
+#intereses *{
+    width: auto;
+}
+#submit{
+    color: white;
+    background-color: blue;
+    width: 60%;
+    margin: 10px;
+}
+#reset{ 
+    align-content: center;
+    color: black;
+    background-color: grey;
+    width: 60%;
+    margin: 0px 10px 0px 10px;
+}
+

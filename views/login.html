@@ -2,17 +2,16 @@
 <head>
     <meta name = "viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/styles1.css">
-    <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="./css/login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 rel="stylesheet" />
-
 </head>
 <header>
     <div class="encabezado">
     <img id="logo" src="./images/logo-mercado-liebre.svg">
     <form action="home1.html">
-        <h3 id="navBar"><input type="text" name="busqueda" value="Busca lo que quieras"><i class="fas fa-search"></i></h3>
+        <h3 id="navBar"><input type="text" name="busqueda" ><i class="fas fa-search"></i></h3>
         </form>
     <h3>Compra en cuotas y sin tarjeta de credito</h3>
     </div>
@@ -36,35 +35,13 @@ rel="stylesheet" />
     </div>
     </header>
 <body>
-    <main>
-    <form  action="register">
-    <input type="text" name="nombreApellido" id="nombreApellido" minlength="1" required value="Nombre y Apellido"><br>
-    <input type="text" name="nombreUsuario" id="nombreUsuario" minlength="1" required value="Usuario"><br>
-    <label for="fechaNacimiento">Fecha de Nacimiento<br>
-    <input type="date" name="fechaNacimiento" value="Fecha de nacimiento">
-</label><br>  
-    <input type="text" name="domicilio" value="Domicilio"><br>
-    <label for="perfil" id="perfil"> Perfil de Usuario<br>
-    <input type="radio" id="perfil" name="perfil"><label> Vendedor</label>
-    <input type="radio" id="perfil" name="perfil"><label> Comprador</label><br>
-    </label>
-    <label for="intereses" id="intereses">Categorias de interes <br>
-    <input type="checkbox" name="intereses" value="Electro"><label>Electro</label><br>
-    <input type="checkbox" name="intereses" value="Moda"><label>Moda</label><br>
-    <input type="checkbox" name="intereses" value="Hogar"><label>Hogar</label><br>
-    <input type="checkbox" name="intereses" value="Jugueteria"><label>Jugueteria</label><br>
-    <input type="checkbox" name="intereses" value="Vida sana"><label>Vida sana</label><br>
-    </label>
-    <input type="file" name="fotoUsuario" id="fotoUsuario" value="Foto de Usuario"><br>
-    <input type="password" name="password" id="password" minlength="1" required value="Password"><br>
-    <input type="password" name="password2" id="password2" value="Repeat Password"><br>
-    <button type="reset" id="reset">Borrar todo</button>
+    <form action="login">
+    <input type="text" name="userName" id="userName" minlength="1"  value="Nombre de Usuario"><br>
+    <input type="password" name="password" id="password" value="password"><br>
     </form>
-    <form action="/home">
-    <button type="submit" id="submit">Ingresar</button>
+        <form action="/home">
+        <button id="submit" type="submit">Ingresar</button>
     </form>
-    </main>
-
 </body>
 <footer>
     <div class="subfooter">
