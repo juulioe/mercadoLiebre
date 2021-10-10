@@ -76,6 +76,7 @@ img{
     
 }
 .datos {
+    position: relative;
     border: solid 1px #ebebeb;
     padding: 15px;
     margin: 0px;
@@ -91,6 +92,9 @@ img{
     background-color: #fff;
     border-radius: 50%;
     transition: transform 200ms;
+    position: absolute;
+    right: 20px;
+    top: -15px;
 }
 .valores{
     display: flex;
