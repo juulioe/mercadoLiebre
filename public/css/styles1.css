@@ -19,7 +19,18 @@ header{
     height: auto;
 }
 #navBar{
+    display: flex;
     width: 70%;
+    margin: 5px;
+    position: relative;
+}
+#lupa{
+    display: flex;
+    margin: 0px;
+    position: relative;
+    top: 20px;
+    right: 20px;
+
 }
 h3{
     text-align: center;
@@ -115,6 +126,7 @@ img{
     display: none;
 }
 footer{
+    margin-top: 10px;
     text-align: center;
 
 }

@@ -8,6 +8,7 @@ input{
     width: 80%;
     text-align: center;
     margin: 10px;
+    max-width: 500px;
 }
 #perfil{
     width: auto;
